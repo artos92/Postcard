@@ -68,6 +68,15 @@
                                     <rect key="frame" x="16" y="72" width="288" height="65"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8p-FQ-Mp3">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="145" width="200" height="21"/>
+                                </variation>
+                            </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eSP-dW-X24">
                                 <rect key="frame" x="239" y="28" width="123" height="29"/>
                                 <segments>
@@ -115,6 +124,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="KNT-P5-cf0"/>
+                                <exclude reference="T8p-FQ-Mp3"/>
                                 <exclude reference="crl-NN-2s7"/>
                                 <exclude reference="Lf2-mN-HKA"/>
                                 <exclude reference="aQH-Lu-E4Y"/>
@@ -124,6 +134,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="KNT-P5-cf0"/>
+                                <include reference="T8p-FQ-Mp3"/>
                                 <exclude reference="eSP-dW-X24"/>
                                 <include reference="crl-NN-2s7"/>
                                 <include reference="Lf2-mN-HKA"/>
@@ -137,6 +148,7 @@
                         <outlet property="enterMessageTextField" destination="aQH-Lu-E4Y" id="teL-GX-vnY"/>
                         <outlet property="enterNameTextField" destination="Lf2-mN-HKA" id="4R9-q2-0Yf"/>
                         <outlet property="messageLabel" destination="KNT-P5-cf0" id="0dG-9B-LdB"/>
+                        <outlet property="nameLabel" destination="T8p-FQ-Mp3" id="MtJ-i7-Sfp"/>
                         <outlet property="sendMailButton" destination="AKt-13-7LR" id="4TJ-l4-mmU"/>
                     </connections>
                 </viewController>
